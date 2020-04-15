@@ -22,13 +22,13 @@ namespace TP_DatingSite {
         protected global::System.Web.UI.HtmlControls.HtmlForm logInForm;
         
         /// <summary>
-        /// txtUserName control.
+        /// lbl_ErrorLogIn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUserName;
+        protected global::System.Web.UI.WebControls.Label lbl_ErrorLogIn;
         
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -40,13 +40,13 @@ namespace TP_DatingSite {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
-        /// txtPassword control.
+        /// txt_Username control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.TextBox txt_Username;
         
         /// <summary>
         /// RequiredFieldValidator2 control.
@@ -58,30 +58,30 @@ namespace TP_DatingSite {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
         
         /// <summary>
-        /// btnLogIn control.
+        /// txt_Password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogIn;
+        protected global::System.Web.UI.WebControls.TextBox txt_Password;
         
         /// <summary>
-        /// Btn_ForgotPassword control.
+        /// cbx_Remember control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_ForgotPassword;
+        protected global::System.Web.UI.WebControls.CheckBox cbx_Remember;
         
         /// <summary>
-        /// lblLogin control.
+        /// btn_LogIn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLogin;
+        protected global::System.Web.UI.WebControls.Button btn_LogIn;
     }
 }
